@@ -1,0 +1,34 @@
+[2022-12-12T15:10:09,362][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2022-12-12T15:10:09,456][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[Data (D:)]], net usable_space [95.6gb], net total_space [225.6gb], types [NTFS]
+[2022-12-12T15:10:09,457][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [193.3mb], compressed ordinary object pointers [true]
+[2022-12-12T15:10:09,475][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [FLfR4czJT0Cix5XsLyYPhw]
+[2022-12-12T15:10:09,475][INFO ][o.e.n.Node               ] [node-1] version[6.2.4], pid[22032], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_271/25.271-b09]
+[2022-12-12T15:10:09,476][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Xms200m, -Xmx200m, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\43834\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=D:\code\my_code\blog\elasticsearch-6.2.4, -Des.path.conf=D:\code\my_code\blog\elasticsearch-6.2.4\config]
+[2022-12-12T15:10:11,395][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2022-12-12T15:10:11,395][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [analysis-common]
+[2022-12-12T15:10:11,395][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2022-12-12T15:10:11,396][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2022-12-12T15:10:11,396][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2022-12-12T15:10:11,396][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2022-12-12T15:10:11,396][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [mapper-extras]
+[2022-12-12T15:10:11,396][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2022-12-12T15:10:11,397][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2022-12-12T15:10:11,397][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [rank-eval]
+[2022-12-12T15:10:11,397][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2022-12-12T15:10:11,397][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-url]
+[2022-12-12T15:10:11,397][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2022-12-12T15:10:11,398][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [tribe]
+[2022-12-12T15:10:11,399][INFO ][o.e.p.PluginsService     ] [node-1] loaded plugin [analysis-ik]
+[2022-12-12T15:10:14,261][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2022-12-12T15:10:16,038][INFO ][o.e.n.Node               ] [node-1] initialized
+[2022-12-12T15:10:16,039][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2022-12-12T15:10:18,368][INFO ][o.e.t.TransportService   ] [node-1] publish_address {172.23.0.1:9300}, bound_addresses {[::]:9300}
+[2022-12-12T15:10:18,381][INFO ][o.e.b.BootstrapChecks    ] [node-1] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2022-12-12T15:10:21,445][INFO ][o.e.c.s.MasterService    ] [node-1] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {node-1}{FLfR4czJT0Cix5XsLyYPhw}{ER3lFbNUSKu-wkegtSMjNw}{172.23.0.1}{172.23.0.1:9300}
+[2022-12-12T15:10:21,450][INFO ][o.e.c.s.ClusterApplierService] [node-1] new_master {node-1}{FLfR4czJT0Cix5XsLyYPhw}{ER3lFbNUSKu-wkegtSMjNw}{172.23.0.1}{172.23.0.1:9300}, reason: apply cluster state (from master [master {node-1}{FLfR4czJT0Cix5XsLyYPhw}{ER3lFbNUSKu-wkegtSMjNw}{172.23.0.1}{172.23.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2022-12-12T15:10:21,520][INFO ][o.w.a.d.Monitor          ] try load config from D:\code\my_code\blog\elasticsearch-6.2.4\config\analysis-ik\IKAnalyzer.cfg.xml
+[2022-12-12T15:10:21,523][INFO ][o.w.a.d.Monitor          ] try load config from D:\code\my_code\blog\elasticsearch-6.2.4\plugins\ik\config\IKAnalyzer.cfg.xml
+[2022-12-12T15:10:22,040][INFO ][o.e.g.GatewayService     ] [node-1] recovered [1] indices into cluster_state
+[2022-12-12T15:10:22,283][INFO ][o.e.c.r.a.AllocationService] [node-1] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[article][0]] ...]).
+[2022-12-12T15:10:22,379][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {172.23.0.1:9202}, bound_addresses {[::]:9202}
+[2022-12-12T15:10:22,379][INFO ][o.e.n.Node               ] [node-1] started
